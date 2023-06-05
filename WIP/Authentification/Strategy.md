@@ -61,8 +61,6 @@ Whenever the user navigates to a new page the Frontend checks if the path requir
 
 In case any of the checks before being redirected to the Login page succeed, the user has a session and is allowed to proceed to the page.
 
-To see the exact implementation consider checking the [Navigation Guard](/docs/Authentification/Client-Side/) page.
-
 
 
 
