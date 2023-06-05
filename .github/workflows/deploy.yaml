@@ -1,0 +1,23 @@
+name: Deploy
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: connecting and deploying
+        uses: appleboy/ssh-action@master
+        with: 
+          host: soulforger.net
+          username: simeon
+          key: ${{ secrets.SSH_KEY }}
+          port: 25540
+          script: |
+            cd dsa.soulforger.net/docs/
+            git pull origin master
+            npm i
+            npm run build
+            cp -r build/* /var/www/docs.soulforger.net/
