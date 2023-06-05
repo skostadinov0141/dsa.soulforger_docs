@@ -55,6 +55,9 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/soulforger_logo_100p.png',
+      colorMode: {
+        defaultMode: 'dark',
+      },
       navbar: {
         title: 'Soulforger Docs',
         logo: {
