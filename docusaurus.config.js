@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Soulforger Docs',
   tagline: 'Create a new Era of roleplaying games.',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/soulforger_logo_100p.png',
 
   // Set the production url of your site here
   url: 'https://docs.soulforger.net',
@@ -54,12 +54,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/soulforger_logo_100p.png',
       navbar: {
         title: 'Soulforger Docs',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/soulforger_logo_100p.png',
         },
         items: [
           {
