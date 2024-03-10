@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Models/Profile/Profile.md",
-                "mode": "source",
+                "file": "Backend/Guides/Creating Pre and Post hooks in NestJS with Mongoose.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -73,7 +73,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Backend/Models/Profile/Profile.md",
+                "file": "Backend/Guides/Creating Pre and Post hooks in NestJS with Mongoose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Backend/Models/Profile/Profile.md",
+                "file": "Backend/Guides/Creating Pre and Post hooks in NestJS with Mongoose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Models/Profile/Profile.md"
+                "file": "Backend/Guides/Creating Pre and Post hooks in NestJS with Mongoose.md"
               }
             }
           }
@@ -156,11 +157,13 @@
   },
   "active": "9d9cce2cc5332d10",
   "lastOpenFiles": [
+    "Backend/Models/Profile/Profile.md",
+    "Backend/Guides/Creating Pre and Post hooks in NestJS with Mongoose.md",
+    "Backend/Guides",
     "Backend/Models/Nirve Phase 1 Common/Nirve Phase 1 Common.md",
     "Backend/Models/Nirve Group/Nirve Group.md",
     "Backend/Models/Nirve Group/nirve_group_erm.svg",
     "Backend/Models/User/User.md",
-    "Backend/Models/Profile/Profile.md",
     "Backend/Models/Nirve Tag/Nirve Tag.md",
     "Backend/Models/Nirve Tag/nirve_tag_erm.svg",
     "Backend/Models/Nirve Phase 1 Common/nirve_pase_1_common_erm.svg",
@@ -182,7 +185,6 @@
     "Backend",
     "node_modules/websocket-driver/lib/websocket/driver/hybi/message.js",
     "node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js",
-    "node_modules/webpack-dev-server/node_modules/schema-utils/dist/util/Range.js",
     "node_modules/send/node_modules/debug/node_modules/ms/readme.md",
     "node_modules/send/node_modules/debug/node_modules/ms/license.md",
     "node_modules/hpack.js/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md",
