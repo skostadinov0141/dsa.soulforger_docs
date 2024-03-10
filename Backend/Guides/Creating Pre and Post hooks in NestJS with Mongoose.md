@@ -1,4 +1,4 @@
-#guide #mongoose #nestjs 
+#guide #mongoose #nestjs #pre-hooks #post-hooks 
 
 Since I've now struggled multiple times with creating pre and post hooks in NestJS, here is a step by step guide on how to do it, and what should be considered in order for them to actually trigger.
 
@@ -39,6 +39,9 @@ export const UserSchemaFactory = (profileModel: Model<Profile>) => {
 
 > [!Warning] Important
 > Make sure to use the Factory instead of the base Schema in all Modules that use the Model, otherwise the hook will never trigger. No errors are thrown during the process so you might never find out that something is wrong, which might lead to DB pollution in the case of on-delete-cascade implementations for example!
+
+> [!WARNING] Important
+> If another model is injected inside of the schema factory, it should be done in all Modules where the factory is used! Otherwise the injected model will result in undefined
 ```typescript
 @Module({  
     imports: [  
